@@ -1,0 +1,33 @@
+header{background-color: #aa6e6ee7;border:solid black}
+div{background-color: rgb(212, 212, 198);border: 1px solid black}
+#nombre{
+    border: solid 1px;
+padding: 8px;}
+legend{border:solid 1px;
+border-radius: 15px;
+background-color: #cabfbf;}
+ul.menu {
+    width: 130px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #7C7C7C;
+}
+
+ul.menu li {
+    border-bottom: 1px solid #7C7C7C;
+    border-top: 1px solid #FFF;
+    background: #F4F4F4;
+}
+
+ul.menu li a {
+    padding: .2em 0 .2em 1.3em;
+    display: block;
+    text-decoration: none;
+    color: #050505;
+    background: #cabfbf url("img/flecha_inactiva.png") no-repeat 3px;
+}
+
+ul.menu li a:hover, ul.menu li a:active {
+    background: #E4E4E4 url("img/flecha_activa.png") no-repeat 3px;
+}
